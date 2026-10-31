@@ -1,0 +1,51 @@
+<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- DailyEcho Blue-to-Teal Gradient -->
+    <linearGradient id="dailyEchoLogoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="50%" stop-color="#0ea5e9" />
+      <stop offset="100%" stop-color="#0d9488" />
+    </linearGradient>
+
+    <!-- Clip Hole Gradient -->
+    <linearGradient id="clipHoleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#0ea5e9" />
+    </linearGradient>
+  </defs>
+
+  <!-- 1. Circular Emblem Base -->
+  <circle cx="50" cy="50" r="47" fill="url(#dailyEchoLogoGrad)" />
+
+  <!-- Subtle inner top-edge highlight ring for glass effect -->
+  <circle cx="50" cy="50" r="45.5" stroke="rgba(255, 255, 255, 0.25)" stroke-width="1.5" fill="none" />
+
+  <!-- 2. Clipboard Body (Rounded Rectangle Outline) -->
+  <rect x="26" y="25" width="48" height="59" rx="8" ry="8" stroke="#ffffff" stroke-width="4" fill="rgba(255, 255, 255, 0.05)" stroke-linejoin="round" />
+
+  <!-- 3. Top Clip Bracket -->
+  <!-- Trapezoid tab -->
+  <path d="M 38 26 L 41 19.5 C 42 17.5 44 16.5 46.5 16.5 L 53.5 16.5 C 56 16.5 58 17.5 59 19.5 L 62 26 Z" fill="#ffffff" />
+  <!-- Clip hanging hole -->
+  <circle cx="50" cy="21.2" r="2.8" fill="url(#clipHoleGrad)" />
+  <!-- Horizontal clamping bar -->
+  <rect x="35" y="24" width="30" height="4.5" rx="2.25" fill="#ffffff" />
+
+  <!-- 4. Checklist Items (Daily Tasks) -->
+  <!-- Row 1: Checkmark + Line -->
+  <path d="M 33.5 38 L 37 41.5 L 43.5 33.5" stroke="#ffffff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" />
+  <rect x="47" y="35.5" width="20" height="3.5" rx="1.75" fill="#ffffff" />
+
+  <!-- Row 2: Checkmark + Line -->
+  <path d="M 33.5 49 L 37 52.5 L 43.5 44.5" stroke="#ffffff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" />
+  <rect x="47" y="46.5" width="20" height="3.5" rx="1.75" fill="#ffffff" />
+
+  <!-- Row 3: Active Bullet Dot + Line -->
+  <circle cx="38.5" cy="59" r="3" fill="#ffffff" />
+  <rect x="47" y="57.25" width="20" height="3.5" rx="1.75" fill="#ffffff" />
+
+  <!-- Row 4: Checkmark + Line -->
+  <path d="M 33.5 70 L 37 73.5 L 43.5 65.5" stroke="#ffffff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" />
+  <rect x="47" y="67.5" width="16" height="3.5" rx="1.75" fill="#ffffff" />
+</svg>
+
